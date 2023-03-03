@@ -6,8 +6,8 @@
         {
             Console.WriteLine("Welcome to Algorithm Programs");
 
-            BubbleSort bubbleSort = new BubbleSort();
-            bubbleSort.DisplayNumber();
+            MergeSort merge = new MergeSort();
+            merge.mergeSort();
         }
     }
 }
