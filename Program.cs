@@ -6,8 +6,9 @@
         {
             Console.WriteLine("Welcome to Algorithm Programs");
 
-            Anagram ana = new Anagram();
-            ana.anagram();
+            PrimeNumber prime = new PrimeNumber();
+            prime.primeNumber();
+
         }
     }
 }
