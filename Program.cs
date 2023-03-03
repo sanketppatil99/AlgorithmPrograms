@@ -6,9 +6,13 @@
         {
             Console.WriteLine("Welcome to Algorithm Programs");
 
-            PrimeNumber prime = new PrimeNumber();
-            prime.primeNumber();
-
+            PalindromChecker checker = new PalindromChecker();
+            
+            Console.WriteLine("Enter the lowe limit");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter the higher limit");
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            checker.palindrom(num1, num2);
         }
     }
 }
