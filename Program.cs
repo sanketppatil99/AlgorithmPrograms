@@ -6,8 +6,8 @@
         {
             Console.WriteLine("Welcome to Algorithm Programs");
 
-            InsertionSort insertion = new InsertionSort();
-            insertion.insertionSort();
+            BubbleSort bubbleSort = new BubbleSort();
+            bubbleSort.DisplayNumber();
         }
     }
 }
